@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
 }
 
 .welcome h1{
@@ -69,4 +69,59 @@ body{
 .stars{
     padding-top: 0.7rem;
     margin-right: 1rem;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.reviews img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+.comment{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.author{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.authorData{
+    font-size: 0.8rem;
+}
+
+.authorData p{
+    margin: 0;
+}
+
+.authorData p:first-child{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.buyer{
+    color: hsl(333, 80%, 67%);
+}
+
+.commentText{
+    color: white;
+    font-weight: 400;
+}
+
+.reviews > div:first-child{
+    transform: translateY(-4rem);
+}
+
+.reviews > div:nth-child(2){
+    transform: translateY(-2rem);
 }
